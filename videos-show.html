@@ -15,8 +15,8 @@
     <header>
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./img/Home.svg"  alt="">
+                <a class="navbar-brand" href="/">
+                    <img src="img/marca.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,52 +43,44 @@
             </div>
         </nav>
 
-       
         <section id="galeria">
             <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center espacio-galeria">
+                            <video id="CajaVideo" src="video/show_video1.mp4" controls preload="auto" style="width: 100%;">
+                            </video>
+                          </div>
+                    </div>
+                </div>
+                <div class="row botones-galeria">
+                    <div class="col-md-4">
 
-                    <div class="row">
-                        <div class="col-md-12 text-center sepa">
-                            <a href="galeria.html" class="btn btn-outline-primary btn-izq btn-gal-activo">Fotos</a>
-                            <a href="vid.html" class="btn btn-outline-primary btn-der">Videos</a>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <div class="row">
+                                <div id="btnIzquierdaVideoShow" class="col-4 texto-izquierda">
+                                    <img src="img/flecha-izquierda.svg">
+                                </div>
+                                <div class="col-4 text-center">
+                                    <a id="btnVolver" class="btn btn-outline-primary" type="button" href="vid.html">Volver</a>
+                                </div>
+                                <div id="btnDerechaVideoShow" class="col-4 texto-derecha">
+                                    <img src="img/flecha-derecha.svg">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-md-4">
 
-                    <div class="row division">
-                        <div class="col-md-4">
-                            <a href="familia.html">
-                                <div class="tarjeta-galeria galeria-familia">
-                                    <div class="hoja">
-                                    </div>
-                                </div>
-                            </a>
-                            <h2 class="blancos text-center m-2">FAMILIA<br /> TANGUERA</h2>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="milongas.html">
-                                <div class="tarjeta-galeria galeria-milonga">
-                                    <div class="hoja"">
-                                    </div>
-                                </div>
-                            </a>
-                            <h2 class="blancos text-center m-2">MILONGAS</h2>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="show.html">
-                                <div class="tarjeta-galeria galeria-show">
-                                    <div class="hoja">
-                                    </div>
-                                </div>
-                            </a>
-                            <h2 class="blancos text-center m-2">TANGO<br /> SHOW</h2>
-                        </div>
                     </div>
+                </div>
             </div>
             
         </section>
 
     </header>
-
 
 
     <footer>

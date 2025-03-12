@@ -24,19 +24,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="nosotros.html" class="btn btn-primary m-izq-boton">Nosotros</a>
+                            <a href="nosotros.html" class="btn btn-primary m-izq-boton btn-movil">Nosotros</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a href="Actividades.html" class="btn btn-primary m-izq-boton btn-movil">Actividades</a>
                         </li>
                         <li class="nav-item">
-                            <a href="Actividades.html" class="btn btn-primary m-izq-boton">Actividades</a>
+                            <a href="companies.html" class="btn btn-primary m-izq-boton btn-movil">Compañías</a>
                         </li>
                         <li class="nav-item">
-                            <a href="companies.html" class="btn btn-primary m-izq-boton">Compañias</a>
+                            <a href="galeria.html" class="btn btn-primary m-izq-boton btn-movil">Galería</a>
                         </li>
                         <li class="nav-item">
-                            <a href="galeria.html" class="btn btn-primary m-izq-boton">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contacto.html" class="btn btn-primary m-izq-boton">Contacto</a>
+                            <a href="contacto.html" class="btn btn-primary m-izq-boton btn-movil">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -48,17 +48,26 @@
             <div class="container">
                 <h1 class="texto-verde text-center titulo-grupo">CLASES GRUPALES</h1>
                 <div class="row">
-                    <div class="col-md-7">
-                        <div class="tarjeta-grupo tarjeta-cero">
-                            <div class="layer">
-                                <div class="texto-tarjeta">TANGO CERO</div>
+                    <div class="col-md-7 col-sm-12">
+                        <div id="PlantillaCero" class="tarjeta-grupo tarjeta-cero">
+                            <div class="layer plantilla">
+                                <p id="txtCero" class="texto-actividades">
+                                    Clases para principiantes absolutos que quieren sumergirse en el mundo del tango, en un ambiente acogedor y familiar. Se promueve un espíritu de compañerismo y apoyo mutuo.
+                                </p>
+                                <div id="TangoCero" class="texto-tarjeta">TANGO CERO</div>
+                                <div class="cirdulo-verde"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="tarjeta-grupo tarjeta-salon">
-                            <div class="layer">
-                                <div class="texto-tarjeta">TANGO SALÓN</div>
+                    <div class="col-md-5 col-sm-12">
+                        <div id="PlantillaSalon" class="tarjeta-grupo tarjeta-salon">
+                            <div class="layer plantilla">
+                                <p id="txtSalon" class="texto-actividades">
+                                    Clases para disfrutar este baile en un ambiente social y acogedor. Se caracteriza por su elegancia y conexión entre parejas. Se trabajan elementos básicos, técnica, musicalidad, secuencias, improvisación, etc.
+                                </p>
+                                <div id="TangoSalon" class="texto-tarjeta">TANGO SALÓN</div>
+                                <div class="cirdulo-verde"></div>
+                                <div class="cirdulo-naranja"></div>
                             </div>
                         </div>
                     </div>
@@ -82,21 +91,30 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container clases-abajo">
                 <!-- <h1 class="texto-verde text-center titulo-grupo">CLASES GRUPALES</h1> -->
                 <div class="row">
-                    <div class="col-md-5">
-                        <div class="tarjeta-grupo tarjeta-milonga">
-                            <div class="layer">
-                                <div class="texto-tarjeta">MILONGA
-                                </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div id="PlantillaMilonga" class="tarjeta-grupo tarjeta-milonga">
+                            <div class="layer plantilla">
+                                <p id="txtMilonga" class="texto-actividades">
+                                    Clases para aprender y disfrutar este baile festivo y enérgico del tango. 
+                                </p>
+                                <div id="TangoMilonga" class="texto-tarjeta">MILONGA</div>
+                                <div class="cirdulo-naranja"></div>
+                                <div class="cirdulo-blanco"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
-                        <div class="tarjeta-grupo tarjeta-escenario">
-                            <div class="layer">
-                                <div class="texto-tarjeta">ESCENARIO</div>
+                    <div class="col-md-7 col-sm-12">
+                        <div id="PlantillaEscenario" class="tarjeta-grupo tarjeta-escenario">
+                            <div class="layer plantilla">
+                                <p id="txtEscenario" class="texto-actividades">
+                                    Nuestras clases de Tango Escenario están diseñadas para bailarines que quieren llevar su pasión por el tango a un nuevo nivel. Aprenderás a fusionar técnica y expresión artística, transformando el baile en una poderosa narrativa visual.
+                                </p>
+                                <div id="TangoEscenario" class="texto-tarjeta">ESCENARIO</div>
+                                <div class="cirdulo-naranja"></div>
+                                <div class="cirdulo-blanco"></div>
                             </div>
                         </div>
                     </div>
@@ -109,8 +127,8 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="tabla-contenedor">
+                    <div class="col-md-12 text-center" style="overflow-x: auto;">
+                        <div class="tabla-contenedor table-responsive">
                             <table class="table align-middle">
                               <thead>
                                 <tr>
@@ -124,25 +142,85 @@
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="titulos-tabla alto-tabla">19:30 a 20:30</td>
-                                  <td>TANGO SALÓN</td>
-                                  <td>TANGO CERO</td>
-                                  <td>MILONGA</td>
-                                  <td>TANGO SALÓN</td>
-                                  <td rowspan="2">
-                                    MILONGA<br />
-                                    (social)<br />
-                                    Cada 2do. viernes<br />
-                                    del mes<br />
-                                    21:00 a 00:00
-                                </td>
+                                    <td class="titulos-tabla alto-tabla">
+                                        19:30 a 20:30
+                                    </td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            TANGO SALÓN
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-3"></div>
+                                        </div>
+                                    </td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            TANGO CERO
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-1"></div>
+                                        </div>
+                                    </td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            MILONGA
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-1"></div>
+                                            <div class="circulo-3"></div>
+                                        </div>
+                                    </td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            TANGO SALÓN
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-2"></div>
+                                        </div>
+                                    </td>
+                                    <td rowspan="2">
+                                        MILONGA<br />
+                                        (social)<br />
+                                        Cada 2do. viernes<br />
+                                        del mes<br />
+                                        21:00 a 00:00
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td class="titulos-tabla alto-tabla">20:30 a 21:30</td>
-                                    <td>TANGO ESCENARIO</td>
-                                    <td>TANGO ESCENARIO</td>
-                                    <td>COMPAÑÍA MIXTA</td>
-                                    <td>COMPAÑÍA FEMENINA</td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            TANGO ESCENARIO
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-3"></div>
+                                        </div>
+                                    </td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            TANGO ESCENARIO
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-1"></div>
+                                        </div>
+                                    </td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            COMPAÑÍA MIXTA
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-3"></div>
+                                        </div>
+                                    </td>
+                                    <td class="tabla-celda">
+                                        <p class="parrafo-tabla">
+                                            COMPAÑÍA FEMENINA
+                                        </p>
+                                        <div class="espacio-tabla">
+                                            <div class="circulo-3"></div>
+                                            <div class="circulo-2"></div>
+                                        </div>
+                                    </td>
                                 </tr>
                               </tbody>
                             </table>
@@ -160,15 +238,15 @@
             <div id="seccion-nivel-o">
                 <div class="container">
                     <div class="row m-peq">
-                        <div class="col-md-4">
+                        <div class="col-md-4 text-center">
                             <div class="circulo-1"></div>
                             Nivel inicial
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 text-center">
                             <div class="circulo-2"></div>
                             Nivel intermedio
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 text-center">
                             <div class="circulo-3"></div>
                             Nivel avanzado
                         </div>
@@ -185,31 +263,40 @@
     <main>
         <section id="nosotros-info">
             <div class="container">
-                <div class="row align-items-md-stretch">
-                    <div class="col-md-6 izq">
-                      <div class="h-100 p-5">
+                <div class="row">
+                    <div class="col-md-12">
                         <h2 class="text-center titulo-nosotros texto-verde">CLASES PARTICULARES</h2>
+                    </div>
+                </div>
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6 izq order-lg-1 order-2">
+                      <div class="h-100 p-5 texto-clases">
+                        
                         <p class="texto-nosotros text-izquierda">
                             Clases para un aprendizaje personalizado, con un enfoque adaptado a las necesidades de cada alumno. Este formato permite un aprendizaje más profundo y eficaz para quienes buscan mejorar su técnica.
                         </p>
                         
                       </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-lg-2 order-1">
                       <div class="h-100 p-5 rounded-3">
-                        <div class="img-particulares"></div>
+                        <div class="img-circular-actividades-1"></div>
                       </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center titulo-nosotros texto-verde" style="margin-top: 200px;">TALLERES</h2>
                     </div>
                 </div>
                 <div class="row align-items-md-stretch separacion">
                     <div class="col-md-6">
                         <div class="h-100 p-5 rounded-3">
-                          <div class="img-talleres"></div>
+                          <div class="img-circular-actividades-2"></div>
                         </div>
                       </div>
                     <div class="col-md-6 der">
-                      <div class="h-100 p-5">
-                        <h2 class="text-center titulo-nosotros texto-verde">TALLERES</h2>
+                      <div class="h-100 p-5 texto-clases">
                         <p class="texto-nosotros text-izquierda">
                             Efecto Tango abre sus talleres para brindar experiencias enriquecedoras con temáticas específicas. 
                         </p>
@@ -222,7 +309,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="card-milonga">
+                        <div class="card-milonga-principal">
                             <div class="row centro">
                                 <div class="col-md-6">
 
@@ -284,19 +371,18 @@
                 <div class="col-md-5">
                     <div class="row">
                         <div class="col-md-12 text-center espacio-footer">
-                            
                             <div class="redes_sociales">
-                                <img class="red" src="img/Facebook.svg">
-                                <img class="red" src="img/Youtube.svg">
-                                <img class="red" src="img/WhatsApp.svg">
-                                <img class="red" src="img/Instagram.svg">
-                                <img class="red" src="img/TikTok.svg">
+                                <a href="https://www.facebook.com/"><img class="red" src="img/Facebook.svg"></a>
+                                <a href="https://www.youtube.com/"><img class="red" src="img/Youtube.svg"></a>
+                                <a href="https://www.whatsapp.com/"><img class="red" src="img/WhatsApp.svg"></a>
+                                <a href="https://www.instagram.com/"><img class="red" src="img/Instagram.svg"></a>
+                                <a href="https://www.tiktok.com/"><img class="red" src="img/TikTok.svg"></a>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 text-center blancos espacio-footer">
-                            Politicas de Privacidad | Términos de uso
+                            <span class="privacidad">Politicas de Privacidad</span> | <span class="terminos">Términos de uso</span>
                         </div>
                     </div>
                     <div class="row">
