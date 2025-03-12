@@ -1,0 +1,1285 @@
+body{
+
+    font-family: "Outfit", serif;
+}
+
+.bg-dark
+{
+    background-color: #000 !important;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.navbar-brand img
+{
+    width: 60px;
+}
+
+.btn-primary
+{
+    background-color: #17452D;
+    border: solid 1px #17452D;
+    color: #FFF;
+    border-radius: 15px;
+    --bs-btn-hover-bg: #43AD54;
+    --bs-btn-hover-border-color: #43AD54;
+    --bs-btn-active-bg: #43AD54;
+}
+
+
+.btn-secondary
+{
+    background-color: #FF8515;
+    border: solid 1px #FF8515;
+    color: #FFF;
+    border-radius: 15px;
+    --bs-btn-hover-bg: #B26621;
+    --bs-btn-hover-border-color: #B26621;
+    --bs-btn-active-bg: #B26621;
+}
+
+.m-izq-boton
+{
+    margin-left: 50px;
+    width: 145px;
+}
+
+#logo
+{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 1000;
+}
+
+#logo img
+{
+    width: 300px;
+}
+
+
+#nosotros
+{
+    height: vh;
+    background-color: #FFF;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.btn-outline-primary
+{
+    background-color: transparent;
+    border: solid 1px #B26621;
+    color: #B26621;
+    font-weight: 500;
+    border-radius: 15px;
+    --bs-btn-hover-bg: #B26621;
+    --bs-btn-hover-border-color: #B26621;
+    --bs-btn-active-bg: #B26621;
+}
+
+.boton-derecha
+{
+    text-align: right;
+}
+.boton-center
+{
+    text-align: center;
+}
+.boton-right
+{
+    text-align: right;
+}
+.boton-left
+{
+    text-align: left;
+}
+
+
+.titulo-nosotros
+{
+    margin-bottom: 40px;
+    font-weight: 800;
+    font-size: 40px;
+    color: #17452D;
+}
+
+.img-circular
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Principal/nosotros.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-carolina
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Nosotros/Caro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-rafael
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Nosotros/Rafael.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.img-daniela
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Nosotros/Dani.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.texto-nosotros
+{
+    line-height: 2;
+    padding: 20px;
+    font-family: "Raleway", serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.izq
+{
+    background-image: url(../img/logo_izq20.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.der
+{
+    background-image: url(../img/logo_der20.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#clases
+{
+    /* height: 80vh; */
+    background-color: #000;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.card-clases
+{
+    width: 230px;
+    height: 560px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.clase-grupal
+{
+    background-image: url(../img/Principal/act_clases_grupales.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.clase-particulares
+{
+    background-image: url(../img/Principal/act_clases_particulares.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.clase-talleres
+{
+    background-image: url(../img/Principal/act_talleres.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.clase-milongas
+{
+    background-image: url(..//img/Principal/act_milongas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.SHOW1
+{
+    background-image: url(../img/Galeria/SHOW/show1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.SHOW2
+{
+    background-image: url(../img/Galeria/SHOW/show2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.SHOW3
+{
+    background-image: url(../img/Galeria/SHOW/show3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.SHOW4
+{
+    background-image: url(../img/Galeria/SHOW/show4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.capa
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.capa:hover
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.capa:hover div
+{
+    font-size: 45px;
+}
+
+.texto-tarjeta-grupales
+{
+    position: absolute;
+    font-weight: 800;
+    font-size: 40;
+    left: -70%;
+    top: 45%;
+    width: 560px;
+    font-size: 40px;
+    color: #FFF;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    
+}
+
+
+.texto-tarjeta-particulares
+{
+    position: absolute;
+    font-weight: 800;
+    font-size: 40;
+    left: -70%;
+    top: 45%;
+    width: 560px;
+    font-size: 40px;
+    color: #FFF;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.texto-tarjeta-talleres
+{
+    position: absolute;
+    font-weight: 800;
+    font-size: 40;
+    left: -70%;
+    top: 45%;
+    width: 560px;
+    font-size: 40px;
+    color: #FFF;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.texto-tarjeta-milongas
+{
+    position: absolute;
+    font-weight: 800;
+    font-size: 40;
+    left: -70%;
+    top: 45%;
+    width: 560px;
+    font-size: 40px;
+    color: #FFF;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#tango
+{
+    background-color: #FFF;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.texto-tango
+{
+    margin-bottom: 60px;
+    font-weight: 800;
+    font-family: "Raleway", serif;
+    font-size: 40px;
+    
+
+}
+
+.img-circular-1
+{
+    border-radius: 10%;
+    width: 320px;
+    height: 320px;
+    background-image: url(../img/Principal/pareja-rojo.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.img-circular-2
+{
+    border-radius: 10%;
+    width: 320px;
+    height: 320px;
+    background-image: url(../img/Principal/pareja-negro.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.texto-nombre
+{
+    margin-bottom: 60px;
+    font-weight: 600;
+}
+
+
+#programa
+{
+    height: vh;
+    background-color: #000;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: #FFF !important;
+    background-image: url(../img/Principal/acordeon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.izquierda
+{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.derecha
+{
+    text-align: right;
+    padding-right: 40px;
+}
+
+.fila
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fondo-prog
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+}
+
+footer
+{
+    background-color: #000;
+    padding: 45px;
+    font-size: 16px;
+}
+
+.enlaces-blanco
+{
+    color: #FFF !important;
+}
+
+.blancos
+{
+    color: #FFF !important;
+}
+
+
+.texto-verde
+{
+    color: #17452D !important;
+    font-weight: 800;
+    
+}
+
+.texto-verde-claro
+{
+    color: #93EEBF !important;
+    font-weight: 800;
+    
+}
+
+.texto-cafe
+{
+    color: #B26621;
+}
+
+.texto-blanco
+{
+    color: #fff;
+    font-weight: 800;
+}
+
+.texto-naranja
+{
+    color: #FF8515;
+    font-weight: 800;
+}
+
+
+.logo-footer
+{
+    width: 30px;
+    margin: 10px;
+}
+
+.espacio-footer
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info
+{
+    font-size: 24px;
+}
+
+.hero
+{
+    background-color: #000;
+}
+
+.tarjeta-nosotros
+{
+    background-color: #17452D;
+    padding: 60px;
+    color: white !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 60px;
+}
+
+.tarjeta-nosotros p
+{
+    font-size: 18px;
+    font-family: Raleway;
+    line-height: 2;
+    text-align: left;
+}
+
+.tarjeta-nosotros h1
+{
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+#nosotros-personas
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titulo-separacion
+{
+    margin-top: 100px;
+}
+
+.hero
+{
+    padding-top: 60px !important;
+}
+
+.tarjeta-foto-1
+{
+    background-color: #000;
+    width: 300px;
+    height: 160px;
+    border-radius: 20px;
+    padding: 12px;
+    border: solid 1px #B26621;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    -webkit-transform: rotate(-15deg); 
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.recuadro-1
+{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid 1px #B26621;
+    background-image: url(../img/Nosotros/NOS1.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-foto-2
+{
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 12px;
+    border: solid 1px #B26621;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    -webkit-transform: rotate(15deg); 
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.cuadro-2
+{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid 1px #B26621;
+    background-image: url(../img/Nosotros/NOS2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-foto-3
+{
+    background-color: #000;
+    width: 300px;
+    height: 160px;
+    border-radius: 20px;
+    padding: 12px;
+    border: solid 1px #B26621;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    -webkit-transform: rotate(-15deg); 
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.recuadro-3
+{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid 1px #B26621;
+    background-image: url(../img/Nosotros/NOS3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-foto-4
+{
+    background-color: #000;
+    width: 300px;
+    height: 160px;
+    border-radius: 20px;
+    padding: 12px;
+    border: solid 1px #B26621;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    -webkit-transform: rotate(-15deg); 
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.recuadro-4
+{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid 1px #B26621;
+    background-image: url(../img/Nosotros/NOS5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-foto-5
+{
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 12px;
+    border: solid 1px #B26621;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    -webkit-transform: rotate(15deg); 
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.cuadro-5
+{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid 1px #B26621;
+    background-image: url(../img/Nosotros/NOS4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-foto-6
+{
+    background-color: #000;
+    width: 300px;
+    height: 160px;
+    border-radius: 20px;
+    padding: 12px;
+    border: solid 1px #B26621;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    -webkit-transform: rotate(-15deg); 
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.recuadro-6
+{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid 1px #B26621;
+    background-image: url(../img/Nosotros/NOS6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.tarjeta-grupo
+{
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 0 auto;
+    border-radius: 60px;
+}
+
+.layer
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 60px;
+}
+
+.texto-tarjeta
+{
+    color: white;
+    font-size: 48px;
+    line-height: 350px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.tarjeta-cero
+{
+    background-image: url(../img//Actividades/clasesTango\ Cero.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-salon
+{
+    background-image: url(../img/Actividades/clases\ tango\ salon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-milonga
+{
+    background-image: url(../img/Actividades/clases\ milonga.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta-escenario
+{
+    background-image: url(../img/Actividades/clase\ escenario.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo-grupo
+{
+    margin-top: 66px;
+    margin-bottom: 60px;
+}
+
+#seccion-nivel
+{
+    background-color: #17452D;
+    height: 5vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white !important;
+}
+
+.circulo-1
+{
+    width: 10px;
+    height: 10px;
+    background-color: #93EEBF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circulo-2
+{
+    width: 10px;
+    height: 10px;
+    background-color: #FFCEA1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circulo-3
+{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.m-peq
+{
+    padding-top: 12px;
+}
+
+
+#horarios
+{
+    background-image: url(../img/Actividades/Rectangle\ 83.jpg);
+    background-size: cover;
+   /*  background-color: #FCEEDE;*/
+    padding-top: 60px;
+    /* padding-bottom: 60px; */
+}
+
+
+.table
+{
+    border-collapse: collapse;
+    margin-bottom: 0;
+    background-color: transparent;
+    --bs-table-bg: transparent;
+}
+
+
+.table th,
+.table td {
+  border: 2px solid green;
+  padding: 10px;
+  text-align: center;
+  font-family: "Raleway", serif ;
+}
+
+.tabla-contenedor {
+    border: 2px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+
+
+.titulos-tabla
+{
+    color: #17452D !important;
+    font-family: "Raleway", serif ;
+}
+
+.alto-tabla
+{
+    height: 150px;
+    
+}
+
+.espacio-titulo
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icono
+{
+    width: 40px;
+    margin: 30px;
+}
+
+#seccion-nivel-o
+{
+    background-color: #17452D;
+    height: 5vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white !important;
+}
+
+#nosotros-info
+{
+    background-color: #FFF;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.separacion
+{
+    margin-top: 100px;
+}
+
+#milongas
+{
+    background-color: #000;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.card-milonga
+{
+    width: 100%;
+    height: 800px;
+    background-color: #B26621;
+    border-radius: 60px;
+    background-image: url(../img/Actividades/MILONGAS.jpg);
+    background-size: cover;
+    background-position: center;
+   /* filter: grayscale(100%) contrast(150%);   */
+}
+
+
+
+.img-particulares
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Actividades/PARTICULARES.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-talleres
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Actividades/TALLERES.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.centro
+{
+    padding-top: 200px;
+}
+
+.pos h2
+{
+    font-size: 60px;
+    text-align: center;
+}
+
+.pos p
+{
+    line-height: 1.5;
+    text-align: left;
+    padding: 25px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.sepa
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.division
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#formulario
+{
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../img/acordeon.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+.img-ciaescenario
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Companias/ciaescenario.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-ciasalon
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Companias/ciasalon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-ciafem
+{
+    border-radius: 10%;
+    width: 470px;
+    height: 470px;
+    background-image: url(../img/Companias/ciafem.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.titulo-form
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form-control
+{
+    background-color: #D9D9D9 !important;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-fondo
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 35px;
+}
+
+::placeholder {
+    color: #B26621;
+    opacity: 1;
+  }
+
+
+  #info
+  {
+    margin-bottom: 60px;
+  }
+
+
+
+  #galeria
+  {
+    background-color: #000;
+    padding-bottom: 100px;
+  }
+
+  .btn-izq
+  {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 15px;
+  }
+
+  .btn-der
+  {
+    border-top-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0;
+  }
+
+  .btn-gal-activo
+  {
+    background-color: #17452D;
+  }
+
+  .tarjeta-galeria
+  {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/pareja-rojo.jpg);
+    border: solid 1px #B26621;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .tarjeta-video1
+  {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/Galeria/VIDEOS/VIDEOS1.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 1px #B26621;
+    border-radius: 15px;
+  }
+
+
+  .tarjeta-video2
+  {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/Galeria/VIDEOS/VIDEOS2.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 1px #B26621;
+    border-radius: 15px;
+  }
+
+
+
+
+.hoja
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.hoja:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.texto-galeria
+{
+    color: white;
+    font-size: 48px;
+    line-height: 300px;
+    text-align: center;
+}
+
+.galeria-familia
+{
+    background-image: url(../img/Galeria/fliatanguera.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.galeria-milonga
+{
+    background-image: url(../img/Galeria/milongas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.galeria-show
+{
+    background-image: url(../img/Galeria/tangoshow.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#imagenes, #videos
+{
+    background-color: #000;
+}
+
+#btnNosotros
+{
+    text-align: right;
+}
+
+#clases
+{
+    background-image: url(../img/logo_izq.svg), url(../img/logo_der.svg);
+    background-position: left, right;
+    background-size: 200px;
+    background-repeat: repeat-y;
+}
+
+.linea-vertical
+{
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #93EEBF;
+    opacity: 0.4;
+}
+
+.titulo-milongas
+{
+    text-shadow: 15px 15px 3px rgba(0, 0, 0, 0.5);
+}
+
+.m-1
+{
+    margin: 10px !important;
+}
+.m-2
+{
+    margin: 20px !important;
+}
+.m-3
+{
+    margin: 30px !important;
+}
+.m-4
+{
+    margin: 40px !important;
+}
+
+.espacio-galeria
+{
+    padding: 70px;
+}
+
+.texto-izquierda
+{
+    text-align: left !important;
+}
+
+.texto-derecha
+{
+    text-align: right !important;
+}
+
+.botones-galeria
+{
+    padding: 20px;
+}
+
+.img-galeria
+{
+    width: 100%;
+}
+
+#btnIzquierda
+{
+    cursor: pointer;
+}
+
+#btnIzquierdaMilongas
+{
+    cursor: pointer;
+}
+
+#btnIzquierdaGira
+{
+    cursor: pointer;
+}
+
+#btnIzquierdaNoche
+{
+    cursor: pointer;
+}
+
+#btnIzquierdaShow
+{
+    cursor: pointer;
+}
+
+#btnIzquierdaBarrio
+{
+    cursor: pointer;
+}
+
+
+#btnDerecha
+{
+    cursor: pointer;
+}
+
+#btnDerechaMilongas
+{
+    cursor: pointer;
+}
+
+#btnDerechaGira
+{
+    cursor: pointer;
+}
+
+#btnDerechaNoche
+{
+    cursor: pointer;
+}
+
+#btnDerechaShow
+{
+    cursor: pointer;
+}
+
+#btnDerechaBarrio
+{
+    cursor: pointer;
+}
+
+#btnVolver
+{
+    margin-top: 7px;
+}
