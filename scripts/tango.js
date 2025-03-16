@@ -4,18 +4,36 @@ $(document).ready(function(){
         $("#PantallaMaria").css("display","block");
     });
 
+    $("#MariaEnlace-movil").click("",function(){
+        $("#PantallaMariaMovil").css("display","block");
+    });
+
     $("#btnVolver-1").on('click', function()
     {
         $("#PantallaMaria").css("display","none");
+    });
+
+    $("#btnVolver-movil-1").on('click', function()
+    {
+        $("#PantallaMariaMovil").css("display","none");
     });
 
     $("#ErwinEnlace").click("",function(){
         $("#PantallaErwin").css("display","block");
     });
 
+    $("#ErwinEnlace-movil").click("",function(){
+        $("#PantallaErwinMovil").css("display","block");
+    });
+
     $("#btnVolver-2").on('click', function()
     {
         $("#PantallaErwin").css("display","none");
+    });
+
+    $("#btnVolver-movil-2").on('click', function()
+    {
+        $("#PantallaErwinMovil").css("display","none");
     });
     
 });

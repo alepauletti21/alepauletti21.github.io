@@ -45,7 +45,21 @@
             </div>
         </nav>
 
-        <div id="carouselExampleCaptions" class="carousel slide">
+
+        <style>
+            
+            @media (max-width: 767.98px) {
+              #carouselExampleCaptions {
+                height: 350px;
+              }
+              #carouselExampleCaptions .carousel-item img {
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          </style>
+
+        <div id="carouselExampleCaptions" class="carousel slide vh-50 vh-md-75">
 
             <div id="logo">
                 <img src="./img/marca_comp.svg" alt="">
@@ -125,7 +139,7 @@
         </section>
         <section id="clases">
             
-            <div class="container" id="clases-fila">
+            <div class="container" id="clases-escritorio">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6 text-center">
                         <a href="Actividades.html">
@@ -165,20 +179,128 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container" id="clases-movil">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                        <a href="Actividades.html">
+                            <div class="card-clases-movil clase-grupal">
+                                <div class="capa-movil">
+                                    <div class="texto-tarjeta-moviles">CLASES GRUPALES</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                        <a href="Actividades.html">
+                            <div class="card-clases-movil clase-particulares">
+                                <div class="capa-movil">
+                                    <div class="texto-tarjeta-moviles">CLASES PARTICULARES</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                        <a href="Actividades.html">
+                            <div class="card-clases-movil clase-talleres">
+                                <div class="capa-movil">
+                                    <div class="texto-tarjeta-moviles">TALLERES</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                        <a href="Actividades.html">
+                            <div class="card-clases-movil clase-milongas">
+                                <div class="capa-movil">
+                                    <div class="texto-tarjeta-moviles">MILONGAS</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+               
+            </div>
             
         </section>
 
-        <section id="tango">
+
+        <style>
+            .espacio-verde
+            {
+                display: flex;
+                justify-content: center;
+                background-color: #17452D;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .icono img
+            {
+                width: 100%;
+            }
+
+            .icono-espacio
+            {
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+
+        </style>
+
+        <div class="espacio-verde">
+            <div class="icono icono-espacio">
+                <img src="img/Programa.png">
+            </div>
+            <div class="icono icono-espacio">
+                <img src="img/Galeria.png">
+            </div>
+            <div class="icono icono-espacio">
+                <img src="img/proximo.png">
+            </div>
+        </div>
+
+
+        <section id="tango" class="tango-escritorio">
             <div class="container">
-                <h2 class="text-center texto-tango">EL TANGO PARA MI</h2>
+                <h2 class="text-center texto-tango texto-escritorio">EL TANGO PARA MI</h2>
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 izq">
                         <h3 class="texto-cafe text-center texto-nombre">Maria Eugenia Almeida</h3>
-                        <div id="MariaEnlace" class="img-circular-1"></div>
+                        <div id="MariaEnlace" class="img-circular-1" style="width: 90%;"></div>
+                        <p class="texto-movil" style="margin: 22px;">
+                            Efecto Tango se siente como una familia donde todos crecemos, cumplimos metas y sueños juntos. Empezar desde los pasos y cursos más básicos y cada año, con cada show ver el  progreso, te hace sentir orgulloso de ti mismo y de los compañeros que avanzan contigo.
+                        </p>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 der">
                         <h3 class="texto-verde text-center texto-nombre">Erwin Quispe</h3>
-                        <div id="ErwinEnlace" class="img-circular-2"></div>
+                        <div id="ErwinEnlace" class="img-circular-2" style="width: 90%;"></div>
+                        <p class="texto-movil" style="margin: 22px;">
+                            Mi experiencia en Efecto Tango fue de mucho aprendizaje. Cada paso, cada coreografía que pude aprender me desarrollaron mucho como bailarín que soy. Los compañeros, los profesores, todos marchamos con el mismo objetivo. Cada presentación es única y cada experiencia es eterna.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tango" class="tango-movil">
+            <div class="container">
+                <h2 class="text-center texto-tango texto-escritorio">EL TANGO PARA MI</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 izq">
+                        <h3 class="texto-cafe text-center texto-nombre">Maria Eugenia Almeida</h3>
+                        <div id="MariaEnlace-movil" class="img-circular-1" style="width: 90%;"></div>
+                        <p class="texto-movil" style="margin: 22px;">
+                            Efecto Tango se siente como una familia donde todos crecemos, cumplimos metas y sueños juntos. Empezar desde los pasos y cursos más básicos y cada año, con cada show ver el  progreso, te hace sentir orgulloso de ti mismo y de los compañeros que avanzan contigo.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 der">
+                        <h3 class="texto-verde text-center texto-nombre">Erwin Quispe</h3>
+                        <div id="ErwinEnlace-movil" class="img-circular-2" style="width: 90%;"></div>
+                        <p class="texto-movil" style="margin: 22px;">
+                            Mi experiencia en Efecto Tango fue de mucho aprendizaje. Cada paso, cada coreografía que pude aprender me desarrollaron mucho como bailarín que soy. Los compañeros, los profesores, todos marchamos con el mismo objetivo. Cada presentación es única y cada experiencia es eterna.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -337,6 +459,32 @@
         </div>
     </div>
 
+    <div id="PantallaMariaMovil">
+        <div class="contenidoMariaMovil">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 izq parrafo-modal-movil">
+                        <p>
+                            Efecto Tango se siente como una familia donde todos crecemos, cumplimos metas y sueños juntos. Empezar desde los pasos y cursos más básicos y cada año, con cada show ver el  progreso, te hace sentir orgulloso de ti mismo y de los compañeros que avanzan contigo.
+                        </p>
+                        <p>
+                            <a id="btnVolver-movil-1" class="btn btn-outline-primary" type="button">Volver</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 movil-emer">
+                        <div class="h-100 p-5 rounded-3">
+                            <div class="img-circular-modal-1">
+                                <p id="txtMaria" class="texto-imagen" style="display: none;">
+                                    “El Tango para mí es una danza de mucha comunión con la pareja y con uno mismo. Te desarrolla varias virtudes como la empatía al sentir la marca o recibir la misma; a respirar y sentir la música o bien disfrutar de cada milonga en los bailes sociales. El Tango me dio muchos momentos felices y quiero seguir en este camino.“
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="PantallaErwin">
         <div class="contenidoErwin">
             <div class="container">
@@ -352,6 +500,31 @@
                         </p>
                         <p>
                             <a id="btnVolver-2" class="btn btn-outline-primary" type="button">Volver</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 movil-emer">
+                        <div class="h-100 p-5 rounded-3">
+                            <div class="img-circular-modal-2">
+                                <p id="txtErwin" class="texto-imagen" style="display: none;">
+                                    “El Tango para mí es una danza de mucha comunión con la pareja y con uno mismo. Te desarrolla varias virtudes como la empatía al sentir la marca o recibir la misma; a respirar y sentir la música o bien disfrutar de cada milonga en los bailes sociales. El Tango me dio muchos momentos felices y quiero seguir en este camino.“
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="PantallaErwinMovil">
+        <div class="contenidoErwinMovil">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 izq parrafo-modal-movil">
+                        <p>
+                            Mi experiencia en Efecto Tango fue de mucho aprendizaje. Cada paso, cada coreografía que pude aprender me desarrollaron mucho como bailarín que soy. Los compañeros, los profesores, todos marchamos con el mismo objetivo. Cada presentación es única y cada experiencia es eterna.
+                        </p>
+                        <p>
+                            <a id="btnVolver-movil-2" class="btn btn-outline-primary" type="button">Volver</a>
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-12 movil-emer">

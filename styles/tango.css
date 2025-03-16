@@ -275,6 +275,27 @@ a
     background-position: center;
 }
 
+.gal-familia
+{
+    background-image: url(../img/Galeria/fliatanguera.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gal-milonga
+{
+    background-image: url(../img/Galeria/milongas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gal-show
+{
+    background-image: url(../img/Galeria/tangoshow.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .capa
 {
     position: relative;
@@ -773,12 +794,13 @@ footer
 
 .tarjeta-grupo
 {
-    height: 350px;
+    height: 180px;
     width: 100%;
     border-radius: 15px;
     background-color: #000;
     margin: 0 auto;
-    border-radius: 60px;
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 .layer
@@ -787,7 +809,7 @@ footer
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 60px;
+    border-radius: 25px;
 }
 
 .texto-tarjeta
@@ -1331,7 +1353,10 @@ footer
 
     .btn-movil
     {
-        width: 80%  !important;
+        width: 100%  !important;
+        margin: 0;
+        border-radius: 0;
+        border-bottom: solid 1px #43AD54;
     }
 
     .img-carolina
@@ -1361,13 +1386,25 @@ footer
 
     .img-circular-actividades-1
     {
-        width: 100% !important;
+        width: 300px !important;
+        height: 300px !important;
     }
     
     .img-circular-actividades-2
     {
         width: 100% !important;
     }
+
+    .carousel-inner
+    {
+        height: 100%;
+    }
+
+    .carousel-item
+    {
+        height: 100%;
+    }
+
     
 }
 
@@ -1482,12 +1519,14 @@ footer
     
     .img-circular-com1
     {
-        width: 100%;
+        width: 300px;
+        height: 300px;
     }
 
     .img-circular-com2
     {
-        width: 100%;
+        width: 300px;
+        height: 300px;
     }
 
     .img-circular-com3
@@ -1523,6 +1562,42 @@ footer
         display: none;
     }
 
+    #clases-movil
+    {
+        display: block;
+    }
+
+    #clases-escritorio
+    {
+        display: none;
+    }
+
+    .espacio-verde
+    {
+        display: block;
+    }
+
+    .texto-escritorio
+    {
+        display: none;
+    }
+
+    .texto-movil
+    {
+        display: block;
+    }
+
+
+    .tango-movil
+    {
+        display: block;
+    }
+
+    .tango-escritorio
+    {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1540,6 +1615,41 @@ footer
     }
 
     #galeria-escritorio
+    {
+        display: block;
+    }
+
+    #clases-movil
+    {
+        display: none;
+    }
+
+    #clases-escritorio
+    {
+        display: block;
+    }
+
+    .espacio-verde
+    {
+        display: none;
+    }
+
+    .texto-escritorio
+    {
+        display: block;
+    }
+
+    .texto-movil
+    {
+        display: none;
+    }
+
+    .tango-movil
+    {
+        display: none;
+    }
+
+    .tango-escritorio
     {
         display: block;
     }
@@ -1565,6 +1675,41 @@ footer
         display: block;
     }
 
+    #clases-movil
+    {
+        display: none;
+    }
+
+    #clases-escritorio
+    {
+        display: block;
+    }
+
+    .espacio-verde
+    {
+        display: none;
+    }
+
+    .texto-escritorio
+    {
+        display: block;
+    }
+
+    .texto-movil
+    {
+        display: none;
+    }
+
+    .tango-movil
+    {
+        display: none;
+    }
+
+    .tango-escritorio
+    {
+        display: block;
+    }
+
 }
 
 
@@ -1576,6 +1721,18 @@ footer
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+}
+
+#PantallaMariaMovil
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
     z-index: 9999;
     display: none;
 }
@@ -1592,6 +1749,18 @@ footer
     display: none;
 }
 
+#PantallaErwinMovil
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 9999;
+    display: none;
+}
+
 .contenidoMaria
 {
     position: absolute;
@@ -1602,6 +1771,21 @@ footer
     background-color: white;
 }
 
+.contenidoMariaMovil
+{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    background-color: black;
+    /* background-image: url(../img/Principal/exp_individual1.jpg); */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contenidoErwin
 {
     position: absolute;
@@ -1610,6 +1794,21 @@ footer
     width: 80%;
     height: 80%;
     background-color: white;
+}
+
+.contenidoErwinMovil
+{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    background-color: black;
+    /* background-image: url(../img/Principal/exp_individual1.jpg); */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-modal
@@ -1675,6 +1874,18 @@ footer
     font-size: 22px;
     line-height: 2;
     flex-direction: column;
+}
+
+.parrafo-modal-movil
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 1.5;
+    flex-direction: column;
+    color: #93EEBF;
+    padding: 40px;
 }
 
 #MariaEnlace
@@ -1912,4 +2123,63 @@ footer
         padding-bottom: 0px;
     }
 
+    .nosotros-info-movil
+    {
+        background-color: #FFF;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .caja-movil
+    {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .taller-movil
+    {
+        margin-top: 0 !important;
+    }
+
+    .daniela-movil
+    {
+        margin-top: 0 !important;
+    }
+
+    .con-movil
+    {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+
+    .nos-movil
+    {
+        font-size: 25px;
+    }
+
+    .caj-movil
+    {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+}
+
+.red {
+    width: 56px;
+    height: auto;
+}
+
+
+@media (max-width: 600px) {
+    .red {
+        width: 48px;
+    }
+}
+
+.texto-historia
+{
+    font-weight: 100;
+    color: white;
 }
