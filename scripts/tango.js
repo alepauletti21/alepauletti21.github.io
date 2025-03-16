@@ -86,18 +86,21 @@ const imagenesBarrio = [
 ];
 
 const videosShow = [
-    "video/show_video1.mp4",
-    "video/show_video2.mp4",
-    "video/show_video3.mp4",
-    "video/show_video4.mp4",
-    "video/show_video5.mp4",
-    "video/show_video6.mp4"
+    "video/VIDSHOW/VIDSHOW1.mp4",
+    "video/VIDSHOW/VIDSHOW2.mp4",
+    "video/VIDSHOW/VIDSHOW3.mp4",
+    "video/VIDSHOW/VIDSHOW4.mp4",
+    "video/VIDSHOW/VIDSHOW5.mp4",
+    "video/VIDSHOW/VIDSHOW6.mp4",
+    "video/VIDSHOW/VIDSHOW7.mp4",
+
 ];
 
 const videosProx = [
-    "video/Proximamente_video1.mp4",
-    "video/Proximamente_video2.mp4"
+    "video/VIDPROX/VIDPROX1.mp4",
+    "video/VIDPROX/VIDPROX2.mp4"
 ];
+
 
 
 const videoShow = document.getElementById("CajaVideo");
