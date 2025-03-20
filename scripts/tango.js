@@ -102,7 +102,6 @@ const videosProx = [
 ];
 
 
-
 const videoShow = document.getElementById("CajaVideo");
 const botonAnteriorVideoShow = document.getElementById("btnIzquierdaVideoShow");
 const botonSiguienteVideoShow = document.getElementById("btnDerechaVideoShow");
