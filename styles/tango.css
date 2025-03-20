@@ -1194,14 +1194,15 @@ footer
 {
     text-align: right;
 }
-
+/* 
 #clases
 {
     /* background-image: url(../img/logo_izq.svg), url(../img/logo_der.svg);
     background-position: left, right;
     background-size: 200px;
-    background-repeat: repeat-y; */
+    background-repeat: repeat-y; 
 }
+*/
 
 .linea-vertical
 {
